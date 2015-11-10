@@ -1,0 +1,52 @@
+1. 使用ThinkPHP框架做项目,必须满足ThinkPHP的规范
+2. 创建数据表的规范.
+    2.1  name:    表示所有的名字字段, 例如: 商品中的名称 , 文章的名称
+    2.2  status: 表示所有数据的状态
+           1: 正常(可以在前台显示)
+           0: 不在前面显示
+           -1: 表示删除状态
+
+           查询出前台需要显示的数据
+           select  from 表 where  status = 1
+
+           查看后台列表中的数据
+           select from  表 where status <> -1
+
+    2.3. intro: 表示简介. text类型的数据
+    2.4. sort: 表示排序.   排序的值越小越前
+    2.6. id: 表示所有表的主键,并且是数字,自增.
+    2.7. 每一个字段(处理id)都要有注解
+
+
+    例如:
+    create table goods(
+        id int unsigned primary key auto_increment,
+        name varchar(20) not null default '' comment '名称',
+        status tinyint not null default 1  comment '状态',
+        intro  text comment '简介',
+        sort smallint not null default 50 comment '排序'
+    )
+
+3. 创建表的规范,根据该规范用来生成crud的代码.
+    3.1 创建的表名必须和类的名字一样.  XXXController XXXModel
+    3.2 字段的名字和表单元素的名字必须一样
+    3.3 通过表中字段的注解用来说明生成什么样的表单元素
+
+    例如:
+    create table brand(
+      id smallint unsigned primary key auto_increment,
+      name varchar(20)  not null default '' comment '品牌名称',
+      url varchar(50) not null default '' comment '品牌网址',
+      logo  varchar(50) not null default '' comment '品牌LOGO@file',
+      intro text comment '品牌描述@text',
+      status tinyint not null default 1  comment '状态@radio|1=是&0=否',
+      sort  smallint not null default 20 comment '排序'
+    ) engine myisam default charset utf8 comment '品牌';
+
+
+
+
+
+
+
+

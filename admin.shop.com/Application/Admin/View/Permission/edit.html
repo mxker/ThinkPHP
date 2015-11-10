@@ -1,0 +1,106 @@
+<extend name="Common:edit"/>
+<block name="css">
+    <link href="__ZTREE__/css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css"/>
+</block>
+<block name="form">
+    <form method="post" action="{:U()}">
+        <table cellspacing="1" cellpadding="3" width="100%">
+                        <tr>
+                <td class="label">权限名称</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$name}">                    <span class="require-field">*</span>
+                </td>
+            </tr>
+                        <tr>
+                <td class="label">权限的URL</td>
+                <td>
+                    <input type="text" name="url" maxlength="60" value="{$url}">                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">父权限</td>
+                <td>
+                    <input type="hidden" name="parent_id" class="parent_id" maxlength="60" value="{$parent_id}">
+                    <input type="text" name="parent_text" class="parent_text" disabled="disabled" value="默认为顶级权限" maxlength="60">
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label"></td>
+                <td>
+                    <ul id="treeDemo" class="ztree"></ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">简介</td>
+                <td>
+                    <textarea name="intro" cols="60" rows="4">{$intro}</textarea>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+                        <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" class="status" value="1" name="status"/>是<input type="radio" class="status" value="0" name="status"/>否                    <span class="require-field">*</span>
+                </td>
+            </tr>
+                        <tr>
+                <td class="label">排序</td>
+                <td>
+                    <input type="text" name="sort" maxlength="60" value="{$sort|default=20}">                    <span class="require-field">*</span>
+                </td>
+            </tr>
+                        <tr>
+                <td colspan="2" align="center"><br />
+                    <input type="hidden"  name="id" value="{$id}" />
+                    <input type="submit" class="button ajax-post" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //>>1.树的设置
+            var setting = {
+                data: {
+                    simpleData: {
+                        enable: true,
+                        pIdKey: "parent_id",
+                    }
+                },
+                callback: {
+                    onClick: function(event, treeId, treeNode){
+                        $('.parent_id').val(treeNode.id);
+                        $('.parent_text').val(treeNode.name);
+                    }
+                }
+            };
+            //>>2.准备树中需要的数据
+            var zNodes ={$nodes};
+            //>>3.将id为treeDemo的ul变为一个树, 返回值就是该树的对象
+            var treeObject = $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+            //>>4.使用对象中的方法让其展开
+            treeObject.expandAll(true);
+
+            <notempty name='id'>
+            //说明是编辑, 需要根据父id找到树上的节点, 然后选中
+            var parent_id = {$parent_id};  //parent_id的值
+            //根据parent_id找到对应的节点
+            var parentNode =  treeObject.getNodeByParam('id',parent_id);
+            if(!parentNode){   //如果没有找到父分类,就不再选中
+                return;
+            }
+            //选中该节点
+            treeObject.selectNode(parentNode);
+            //将父节点的name和id赋值给
+            $('.parent_id').val(parentNode.id);
+            $('.parent_text').val(parentNode.name);
+
+            </notempty>
+        });
+    </script>
+</block>

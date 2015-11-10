@@ -1,0 +1,1460 @@
+[ 2015-11-06T10:17:45+08:00 ] 192.168.0.80 /index.php/Test/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2015-11-06T20:25:36+08:00 ] 192.168.0.80 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2015-11-06T20:25:41+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-11-06T20:25:46+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2015-11-06T20:25:47+08:00 ] 192.168.0.80 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2015-11-06T20:25:49+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-11-06T20:25:49+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T20:25:50+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0020s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T20:26:10+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-11-06T20:26:10+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T20:26:21+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0027s ]
+SQL: INSERT INTO `brand` (`name`,`url`,`logo`,`intro`,`status`,`sort`,`id`) VALUES ('你的背包','mxker.net','File Not Found','你猜','1','20','0') [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000990s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-11-06T20:26:23+08:00 ] 192.168.0.80 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,2   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-11-06T22:59:44+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-11-06T22:59:44+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T22:59:46+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-11-06T23:04:54+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-11-06T23:04:55+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:04:56+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004841s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2015-11-06T23:05:00+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2015-11-06T23:05:01+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:05:02+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2015-11-06T23:06:12+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2015-11-06T23:06:12+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004230s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:06:14+08:00 ] 192.168.0.80 /index.php/Brand/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-11-06T23:06:15+08:00 ] 192.168.0.80 /index.php/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000361s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `brand` WHERE `status` <> -1 LIMIT 0,2   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000490s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2015-11-06T23:06:19+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-11-06T23:06:19+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:06:21+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0035s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:06:30+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-11-06T23:06:30+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:11:05+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-11-06T23:11:06+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0014s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:11:14+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-11-06T23:11:22+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:12:25+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-11-06T23:12:27+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:12:35+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-11-06T23:12:36+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:13:45+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001375s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-11-06T23:13:56+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2015-11-06T23:13:57+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0025s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:14:06+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-11-06T23:15:32+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-11-06T23:15:33+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0016s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:15:51+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-11-06T23:21:57+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004433s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2015-11-06T23:21:58+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:26:12+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-11-06T23:26:13+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:26:23+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-11-06T23:26:27+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:30:54+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-11-06T23:30:56+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0039s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:31:06+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2015-11-06T23:31:10+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:34:59+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-11-06T23:34:59+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:35:00+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0024s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:35:10+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-11-06T23:35:20+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:35:54+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2015-11-06T23:35:54+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:35:56+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:36:23+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002168s ]
+
+[ 2015-11-06T23:41:28+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-11-06T23:41:28+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:41:29+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0041s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:41:41+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-11-06T23:41:45+08:00 ] 192.168.0.80 /Uploads/File%20Not%20Found
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:43:50+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-11-06T23:43:52+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0017s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:44:04+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-11-06T23:48:06+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2015-11-06T23:48:07+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0018s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:48:24+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2015-11-06T23:50:42+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-11-06T23:50:42+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:51:01+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2015-11-06T23:51:02+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:51:03+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:51:13+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-11-06T23:52:16+08:00 ] 192.168.0.80 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 31 行.
+NOTIC: [8] Undefined variable: url /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 37 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 44 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 46 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 56 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/81424e1cf5529bf8150bd8fc957b9961.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002350s ]
+
+[ 2015-11-06T23:52:16+08:00 ] 192.168.0.80 /Uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2015-11-06T23:52:17+08:00 ] 192.168.0.80 /index.php/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0025s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-06T23:52:26+08:00 ] 192.168.0.80 /index.php/Uploader/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/ThinkPHP/Library/Think/Upload.class.php 第 182 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 224 行.
+NOTIC: [8] Undefined offset: 2 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+NOTIC: [8] Undefined offset: 1 /home/www/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php 第 225 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002147s ]
+

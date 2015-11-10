@@ -1,0 +1,1546 @@
+[ 2015-11-08T00:00:02+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/10/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0023s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=10 [ RunTime:0.0013s ]
+
+[ 2015-11-08T00:00:05+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/10/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0027s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=10 [ RunTime:0.0018s ]
+
+[ 2015-11-08T00:02:02+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2015-11-08T00:02:07+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/26/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0014s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=26 [ RunTime:0.0011s ]
+
+[ 2015-11-08T00:02:20+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2015-11-08T00:02:23+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/28/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0213s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=28 [ RunTime:0.0022s ]
+
+[ 2015-11-08T00:03:30+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-11-08T00:03:34+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/26/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0012s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=26 [ RunTime:0.0003s ]
+
+[ 2015-11-08T00:05:33+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000599s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2015-11-08T00:05:38+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0015s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0010s ]
+
+[ 2015-11-08T00:20:35+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2015-11-08T00:20:38+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2015-11-08T00:20:41+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0037s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0018s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods_category` SET `status`='0' WHERE `id` IN ()
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods_category` SET `status`='0' WHERE `id` IN ()
+
+[ 2015-11-08T00:22:36+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0014s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0009s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-11-08T00:22:37+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000313s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000817s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2015-11-08T00:22:40+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0023s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0017s ]
+SQL: UPDATE `goods_category` SET `status`='1' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-11-08T00:22:41+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2015-11-08T00:22:54+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2015-11-08T00:22:56+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000561s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0018s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0007s ]
+
+[ 2015-11-08T00:22:58+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2015-11-08T00:23:00+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0017s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0007s ]
+SQL: UPDATE `goods_category` SET `status`='1' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0008s ]
+
+[ 2015-11-08T00:23:02+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2015-11-08T00:23:05+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/4/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0020s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=4 [ RunTime:0.0005s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('7','4') [ RunTime:0.0010s ]
+
+[ 2015-11-08T00:23:06+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2015-11-08T00:23:15+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0018s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=4 [ RunTime:0.0012s ]
+SQL: UPDATE `goods_category` SET `status`='-1',`name`=concat(name,'_del' ) WHERE `id` IN ('7','4') [ RunTime:0.0005s ]
+
+[ 2015-11-08T00:23:17+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2015-11-08T00:23:17+08:00 ] 192.168.0.80 /Public/Admin/images/-1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 无法加载控制器:404
+
+[ 2015-11-08T00:24:43+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0019s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/ThinkPHP/Library/Think/Db/Driver.class.php 第 553 行.
+SQL: SELECT * FROM `goods_category` ORDER BY lft  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-11-08T00:24:43+08:00 ] 192.168.0.80 /Public/Admin/images/-1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+ERR: 无法加载控制器:404
+
+[ 2015-11-08T00:25:14+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-11-08T00:36:23+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2015-11-08T00:36:30+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/8/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0012s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=8 [ RunTime:0.0006s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('8','7','6','5','4') [ RunTime:0.0006s ]
+
+[ 2015-11-08T00:36:31+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2015-11-08T00:36:35+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/3/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0015s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=3 [ RunTime:0.0003s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('3') [ RunTime:0.0004s ]
+
+[ 2015-11-08T00:36:37+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2015-11-08T00:36:39+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/25/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0014s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=25 [ RunTime:0.0006s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('25') [ RunTime:0.0009s ]
+
+[ 2015-11-08T00:36:41+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-11-08T00:37:23+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2015-11-08T00:37:26+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0037s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0013s ]
+SQL: UPDATE `goods_category` SET `status`='0' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0003s ]
+
+[ 2015-11-08T00:37:27+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-11-08T00:37:34+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=10 [ RunTime:0.0011s ]
+SQL: UPDATE `goods_category` SET `status`='-1',`name`=concat(name,'_del' ) WHERE `id` IN ('10','9','8','7','6','5','4','3','2','1') [ RunTime:0.0006s ]
+
+[ 2015-11-08T00:37:36+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-11-08T00:42:57+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-11-08T00:43:01+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/24/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0013s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=24 [ RunTime:0.0015s ]
+SQL: UPDATE `goods_category` SET `status`='1' WHERE `id` IN ('28','27','26','25','24') [ RunTime:0.0014s ]
+
+[ 2015-11-08T00:43:02+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2015-11-08T00:43:09+08:00 ] 192.168.0.80 /index.php/GoodsCategory/changeStatus/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0013s ]
+SQL: select  child.id   from goods_category as parent,goods_category as child where child.lft>=parent.lft and child.rght<=parent.rght and parent.id=4 [ RunTime:0.0011s ]
+SQL: UPDATE `goods_category` SET `status`='-1',`name`=concat(name,'_del' ) WHERE `id` IN ('7','4') [ RunTime:0.0011s ]
+
+[ 2015-11-08T00:43:11+08:00 ] 192.168.0.80 /index.php/GoodsCategory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000999s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2015-11-08T00:44:10+08:00 ] 192.168.0.80 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2015-11-08T00:46:28+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2015-11-08T08:58:38+08:00 ] 192.168.0.80 /GoodsCtaegory/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+ERR: 无法加载控制器:GoodsCtaegory
+
+[ 2015-11-08T08:58:38+08:00 ] 192.168.0.80 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2015-11-08T08:58:38+08:00 ] 192.168.0.80 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-11-08T08:59:07+08:00 ] 192.168.0.80 /GoodsCategory/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1912s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-08T08:59:31+08:00 ] 192.168.0.80 /GoodsCategory/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.036734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.037090s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 30 行.
+NOTIC: [8] Undefined variable: parent_id /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 37 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 51 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007929s ]
+
+[ 2015-11-08T08:59:39+08:00 ] 192.168.0.80 /GoodsCategory/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2015-11-08T08:59:44+08:00 ] 192.168.0.80 /index.php/GoodsCategory/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 30 行.
+NOTIC: [8] Undefined variable: parent_id /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 37 行.
+NOTIC: [8] Undefined variable: intro /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 51 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/d28e9193a7f45ac612c55c0f0f12ac83.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2015-11-08T11:22:10+08:00 ] 192.168.0.80 /GoodsCategory/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsCategoryModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/admin.shop.com/Application/Admin/Model/GoodsCategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_category` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-11-08T12:44:24+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-11-08T12:55:46+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-11-08T12:55:48+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-11-08T12:56:00+08:00 ] 192.168.0.80 /index.php/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0368s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000981s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-11-08T12:56:20+08:00 ] 192.168.0.80 /index.php/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2015-11-08T12:56:21+08:00 ] 192.168.0.80 /index.php/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-11-08T12:56:21+08:00 ] 192.168.0.80 /index.php/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-11-08T12:56:31+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-11-08T12:56:33+08:00 ] 192.168.0.80 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000870s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2015-11-08T12:56:59+08:00 ] 192.168.0.80 /index.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000990s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-11-08T12:57:05+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-11-08T12:57:28+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-11-08T12:57:29+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 27 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 33 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 39 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 45 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 51 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 57 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 63 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 69 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 81 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 87 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2015-11-08T13:18:02+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 38 行.
+NOTIC: [8] Undefined variable: sn /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 44 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 50 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 56 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 62 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 68 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 74 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 80 行.
+NOTIC: [8] Undefined variable: goods_status /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 92 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 98 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-11-08T13:19:59+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 38 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 44 行.
+
+[ 2015-11-08T13:26:54+08:00 ] 192.168.0.80 /index.php/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Undefined variable: name /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 38 行.
+NOTIC: [8] Undefined variable: goods_category_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 44 行.
+NOTIC: [8] Undefined variable: brands /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 58 行.
+NOTIC: [8] Undefined variable: brand_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 58 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/admin.shop.com/Application/Common/Common/function.php 第 45 行.
+NOTIC: [8] Undefined variable: suppliers /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 65 行.
+NOTIC: [8] Undefined variable: supplier_id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 65 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/admin.shop.com/Application/Common/Common/function.php 第 45 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 72 行.
+NOTIC: [8] Undefined variable: market_price /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 79 行.
+NOTIC: [8] Undefined variable: stock /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 86 行.
+NOTIC: [8] Undefined variable: keyword /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 110 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 118 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 119 行.
+NOTIC: [8] Undefined variable: logo /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 121 行.
+NOTIC: [8] Undefined variable: id /home/www/admin.shop.com/Runtime/Cache/Admin/ad1c01ac3ce79687e43c1f773c8b4e3a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2015-11-08T13:26:54+08:00 ] 192.168.0.80 /index.php/Goods/__GOODS__/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+ERR: 非法操作:__GOODS__
+
